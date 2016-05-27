@@ -16,9 +16,7 @@
 		37E364091CF728B900D11924 /* myforecastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E364081CF728B900D11924 /* myforecastUITests.swift */; };
 		37E364181CF729CB00D11924 /* cloud.gif in Resources */ = {isa = PBXBuildFile; fileRef = 37E364171CF729CB00D11924 /* cloud.gif */; };
 		37E364221CF7346C00D11924 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E364211CF7346C00D11924 /* Pods.framework */; };
-		37E364261CF7364A00D11924 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E364241CF7364A00D11924 /* Reachability.swift */; };
 		37E364271CF7364A00D11924 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E364251CF7364A00D11924 /* UIImage+Gif.swift */; };
-		37E3642A1CF7767400D11924 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E364291CF7767400D11924 /* Enums.swift */; };
 		37E364A21CF77F3E00D11924 /* clear-day.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E3647B1CF77F3E00D11924 /* clear-day.png */; };
 		37E364A31CF77F3E00D11924 /* clear-day@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E3647C1CF77F3E00D11924 /* clear-day@2x.png */; };
 		37E364A41CF77F3E00D11924 /* clear-day@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E3647D1CF77F3E00D11924 /* clear-day@3x.png */; };
@@ -95,9 +93,7 @@
 		37E3640A1CF728B900D11924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37E364171CF729CB00D11924 /* cloud.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cloud.gif; sourceTree = "<group>"; };
 		37E364211CF7346C00D11924 /* Pods.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods.framework; path = "Pods/../build/Debug-iphoneos/Pods.framework"; sourceTree = "<group>"; };
-		37E364241CF7364A00D11924 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		37E364251CF7364A00D11924 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
-		37E364291CF7767400D11924 /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		37E3647B1CF77F3E00D11924 /* clear-day.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-day.png"; sourceTree = "<group>"; };
 		37E3647C1CF77F3E00D11924 /* clear-day@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-day@2x.png"; sourceTree = "<group>"; };
 		37E3647D1CF77F3E00D11924 /* clear-day@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clear-day@3x.png"; sourceTree = "<group>"; };
@@ -196,7 +192,6 @@
 			isa = PBXGroup;
 			children = (
 				37E364C91CF7931A00D11924 /* Classes */,
-				37E364281CF7766600D11924 /* Models */,
 				37E364231CF7364A00D11924 /* Libraries */,
 				37E364161CF729CB00D11924 /* Resources */,
 				37E363E81CF728B800D11924 /* AppDelegate.swift */,
@@ -239,18 +234,9 @@
 		37E364231CF7364A00D11924 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				37E364241CF7364A00D11924 /* Reachability.swift */,
 				37E364251CF7364A00D11924 /* UIImage+Gif.swift */,
 			);
 			path = Libraries;
-			sourceTree = "<group>";
-		};
-		37E364281CF7766600D11924 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				37E364291CF7767400D11924 /* Enums.swift */,
-			);
-			path = Models;
 			sourceTree = "<group>";
 		};
 		37E3647A1CF77F3E00D11924 /* Icons */ = {
@@ -551,9 +537,7 @@
 				37E364CC1CF7935000D11924 /* ForecastListTVCell.swift in Sources */,
 				37E364271CF7364A00D11924 /* UIImage+Gif.swift in Sources */,
 				37E363EB1CF728B800D11924 /* ViewController.swift in Sources */,
-				37E3642A1CF7767400D11924 /* Enums.swift in Sources */,
 				37E364CD1CF7935000D11924 /* ForecastListVC.swift in Sources */,
-				37E364261CF7364A00D11924 /* Reachability.swift in Sources */,
 				37E363E91CF728B800D11924 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
